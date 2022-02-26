@@ -1,0 +1,22 @@
+.client-message{
+    background: red;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 8vw;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 5%;
+}
+.client-message p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.3;
+}
