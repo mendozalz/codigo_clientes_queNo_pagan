@@ -43,12 +43,10 @@ el codigo es el siguiente:
 
 
 ```
-alert("Lenin Mendoza te envia a decir que...");
-
 (function($){
     
 //Desvanece la web con la funcion Date YY-MM-DD
-    var sentencia_date = new Date('2021-09-11'),
+    var sentencia_date = new Date('2022-02-30'),
     
         current_date = new Date(),
         utc1 = Date.UTC(sentencia_date.getFullYear(), sentencia_date.getMonth(), sentencia_date.getDate()),
@@ -64,6 +62,7 @@ alert("Lenin Mendoza te envia a decir que...");
           $('.client-mensaje').fadeIn()
       }, 5000 )
       
+      alert("Lenin Mendoza te envia a decir que...");
       document.write("<div class='client-mensaje'>");
       document.write("<p>");
       document.write("Que pena pero por favor... <br/>Pagale a tu Desarrollador!");
