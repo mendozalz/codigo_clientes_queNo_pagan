@@ -99,3 +99,7 @@ add_action("wp_enqueue_scripts", "lenin_insertar_js");
 
 
 ```
+Estrategicamente podriamos pensar meter todo este codigo en un plugins o complemento y de este modo ocultar a la vista de todos este complemento pero el que conozca **WP** sabra meterse en el server y navegar por las carpetas del **WP** y eliminar el complemento. a mi pensar es mejor mezclar la funcion creada para implementar en el **function.php** con funciones propias del tema...
+## Ojo! Este ultimo comentario solo para usuarios experimentados... Un abrazo 
+#
+### Atte. Lenin Mendoza...
