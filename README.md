@@ -37,7 +37,7 @@ el codigo es el siguiente:
 ### El archivo JS
 Este archivo directamente escribe dentro etiquetas HTML para que directamente sean insertadas en el **DOM** normalmente en las rutas propias de Wordpress en la carpetas theme siempre debe estar alojado un una carpeta **js** y dentro de ella un archivo **js** que es llamado globalmente, la ruta deberia ser:
 
-` wp-content --> themes --> nombre_del_tema --> js --> script.js `
+` wp-content --> themes --> nombre_del_tema --> includes --> settings-functions.js `
 #
 el codigo es el siguiente: 
 
