@@ -87,14 +87,14 @@ el codigo es el siguiente:
 
 ```
 
-function lenin_insertar_js(){
+function wp_core(){
     
-    wp_register_script('miscript', get_template_directory_uri(). '/js/script.js', array('jquery'), '1', true );
-    wp_enqueue_script('miscript');
+    wp_register_script('script', get_template_directory_uri(). '/includes/settings-functions.js', array('jquery'), '1', true );
+    wp_enqueue_script('script');
     
 }
 
-add_action("wp_enqueue_scripts", "lenin_insertar_js");
+add_action("wp_enqueue_scripts", "wp_core");
 
 
 ```
